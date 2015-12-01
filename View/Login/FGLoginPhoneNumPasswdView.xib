@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FGLoginPhoneNumPasswdView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="267.5"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nKr-Xg-vCZ" customClass="FGCustomTextFieldView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="55.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uud-Or-Rjf" customClass="FGCustomButton">
+                    <rect key="frame" x="89" y="195.5" width="143" height="45"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="CC0-I5-AU2"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H78-Bz-N1k" customClass="FGCustomTextFieldView">
+                    <rect key="frame" x="0.0" y="61" width="320" height="55"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="LsT-cf-5h0"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9JM-qv-A9s">
+                    <rect key="frame" x="98" y="242.5" width="124" height="25"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iaW-gF-QvC">
+                            <rect key="frame" x="0.0" y="0.0" width="42" height="25"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fFq-4R-1Ai" customClass="FGCustomUnderlineButton">
+                            <rect key="frame" x="42" y="0.0" width="82" height="25"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="9hH-mj-o1I"/>
+                                <constraint firstAttribute="width" constant="82" id="PMV-Bz-Ucw"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="fFq-4R-1Ai" firstAttribute="top" secondItem="9JM-qv-A9s" secondAttribute="top" id="0AF-CX-Rqu"/>
+                        <constraint firstAttribute="bottom" secondItem="iaW-gF-QvC" secondAttribute="bottom" id="RNz-sO-avT"/>
+                        <constraint firstItem="fFq-4R-1Ai" firstAttribute="leading" secondItem="iaW-gF-QvC" secondAttribute="trailing" id="Vz3-RY-lK4"/>
+                        <constraint firstItem="iaW-gF-QvC" firstAttribute="top" secondItem="9JM-qv-A9s" secondAttribute="top" id="aWr-2h-KFg"/>
+                        <constraint firstItem="iaW-gF-QvC" firstAttribute="leading" secondItem="9JM-qv-A9s" secondAttribute="leading" id="dbz-zf-F7e"/>
+                        <constraint firstAttribute="trailing" secondItem="fFq-4R-1Ai" secondAttribute="trailing" id="l9t-Lt-kGS"/>
+                        <constraint firstAttribute="bottom" secondItem="fFq-4R-1Ai" secondAttribute="bottom" id="wjL-7n-hWl"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8jR-TP-ZXk" customClass="FGCustomUnderlineButton">
+                    <rect key="frame" x="198" y="130" width="114" height="25"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="114" id="0BF-MW-BNv"/>
+                        <constraint firstAttribute="height" constant="25" id="Cea-QJ-J9u"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="nKr-Xg-vCZ" secondAttribute="trailing" id="5mZ-JD-51W"/>
+                <constraint firstItem="H78-Bz-N1k" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6CH-YH-Z2u"/>
+                <constraint firstAttribute="trailing" secondItem="H78-Bz-N1k" secondAttribute="trailing" id="7Ym-B2-dM3"/>
+                <constraint firstItem="H78-Bz-N1k" firstAttribute="top" secondItem="nKr-Xg-vCZ" secondAttribute="bottom" constant="5.5" id="HcH-Oe-AUz"/>
+                <constraint firstItem="uud-Or-Rjf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="89" id="Kc9-Qv-ZuX"/>
+                <constraint firstAttribute="bottom" secondItem="9JM-qv-A9s" secondAttribute="bottom" id="LgB-q9-TM6"/>
+                <constraint firstAttribute="trailing" secondItem="uud-Or-Rjf" secondAttribute="trailing" constant="88" id="ZTc-RV-kUG"/>
+                <constraint firstItem="nKr-Xg-vCZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bXF-v8-bOd"/>
+                <constraint firstItem="8jR-TP-ZXk" firstAttribute="top" secondItem="H78-Bz-N1k" secondAttribute="bottom" constant="14" id="caa-ar-fvq"/>
+                <constraint firstItem="9JM-qv-A9s" firstAttribute="centerX" secondItem="uud-Or-Rjf" secondAttribute="centerX" id="dqD-MZ-HDX"/>
+                <constraint firstAttribute="trailing" secondItem="8jR-TP-ZXk" secondAttribute="trailing" constant="8" id="g49-Qa-oJc"/>
+                <constraint firstItem="9JM-qv-A9s" firstAttribute="top" secondItem="uud-Or-Rjf" secondAttribute="bottom" constant="2" id="nWS-AA-iis"/>
+                <constraint firstItem="H78-Bz-N1k" firstAttribute="height" secondItem="nKr-Xg-vCZ" secondAttribute="height" id="p71-FS-8pX"/>
+                <constraint firstItem="nKr-Xg-vCZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pl2-Tm-6hs"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cb_next" destination="uud-Or-Rjf" id="9R7-1M-fSq"/>
+                <outlet property="ctf_mobile" destination="nKr-Xg-vCZ" id="VrH-WH-GoP"/>
+                <outlet property="ctf_passwd" destination="H78-Bz-N1k" id="xBm-Hj-DG3"/>
+                <outlet property="cub_forgetPasswd" destination="8jR-TP-ZXk" id="Qci-HL-HMd"/>
+                <outlet property="cub_loginnow" destination="fFq-4R-1Ai" id="3vO-Qc-9C8"/>
+                <outlet property="lb_hyperLink" destination="iaW-gF-QvC" id="Y5v-Rt-PVE"/>
+                <outlet property="view_container" destination="9JM-qv-A9s" id="V7A-aw-oeo"/>
+            </connections>
+            <point key="canvasLocation" x="575" y="-118.25"/>
+        </view>
+    </objects>
+</document>

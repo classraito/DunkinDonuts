@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FGRedeemCouponBannerView">
+            <connections>
+                <outlet property="btn_favorite" destination="4sw-ah-iY9" id="hiZ-I0-HBl"/>
+                <outlet property="btn_good" destination="UqU-RC-6BP" id="0yY-wj-6hS"/>
+                <outlet property="iv_bg" destination="8oF-sh-4s0" id="Pjx-j6-Rgj"/>
+                <outlet property="iv_favorite" destination="ozb-Hm-9Sy" id="5q8-Zy-5YU"/>
+                <outlet property="iv_good" destination="EY9-aL-ufa" id="f5X-cv-UqF"/>
+                <outlet property="lb_counter" destination="fRi-fw-olS" id="JM7-rZ-TZW"/>
+                <outlet property="lb_description" destination="0A2-pD-2Oc" id="9Ly-aD-AOr"/>
+                <outlet property="view_content" destination="iN0-l3-epB" id="A4N-ld-Pka"/>
+                <outlet property="vsl_title" destination="CL1-ny-uMd" id="D3N-Q6-5hn"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="offers1.jpg" id="8oF-sh-4s0">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-collection.png" highlightedImage="icon-collection2.png" id="ozb-Hm-9Sy">
+                    <rect key="frame" x="278" y="247.5" width="26" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0A2-pD-2Oc">
+                    <rect key="frame" x="40" y="102.5" width="240" height="124"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="257" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fRi-fw-olS">
+                    <rect key="frame" x="239" y="251.5" width="36" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" id="CL1-ny-uMd" customClass="FGViewWithSepratorLineView">
+                    <rect key="frame" x="40" y="76.5" width="240" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="UqU-RC-6BP">
+                    <rect key="frame" x="206" y="242" width="64" height="40.5"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="4sw-ah-iY9">
+                    <rect key="frame" x="272" y="239" width="40" height="40.5"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-good.png" highlightedImage="icon-good2.png" id="EY9-aL-ufa">
+                    <rect key="frame" x="212" y="247.5" width="22" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="575" y="272"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon-collection.png" width="78" height="73"/>
+        <image name="icon-collection2.png" width="78" height="73"/>
+        <image name="icon-good.png" width="68" height="73"/>
+        <image name="icon-good2.png" width="68" height="73"/>
+        <image name="offers1.jpg" width="750" height="352"/>
+    </resources>
+</document>

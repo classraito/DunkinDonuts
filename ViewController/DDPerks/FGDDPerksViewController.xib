@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FGDDPerksViewController">
+            <connections>
+                <outlet property="css_showMode" destination="8x2-VT-Y5c" id="xAd-2H-c1p"/>
+                <outlet property="iv_topBanner" destination="NoE-s7-jI6" id="oxv-Su-QoL"/>
+                <outlet property="view" destination="h1P-1D-RRH" id="sg7-A6-EcF"/>
+                <outlet property="view_contentView" destination="Pwd-QR-5eV" id="qfk-P4-qZF"/>
+                <outlet property="view_listView" destination="Byf-u5-RHK" id="mTj-JH-lUn"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="h1P-1D-RRH">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="Pwd-QR-5eV">
+                    <rect key="frame" x="0.0" y="87" width="320" height="481"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="Byf-u5-RHK" customClass="FGDDPerksListView">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="481"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ddperk_bg.jpg" id="NoE-s7-jI6">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" id="8x2-VT-Y5c" customClass="FGCustomSegmentSelectView">
+                    <rect key="frame" x="0.0" y="87" width="320" height="33"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="665" y="364"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ddperk_bg.jpg" width="1082" height="226"/>
+    </resources>
+</document>

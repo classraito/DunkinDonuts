@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FGLocationsRouteSearchTypeView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-car.png" id="fGe-Dr-6mM">
+                    <rect key="frame" x="155" y="16" width="21" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-run.png" id="2jo-Ri-hsq">
+                    <rect key="frame" x="219" y="13" width="13" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Sbg-sA-0G2">
+                    <rect key="frame" x="73" y="0.0" width="59" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="6Oa-Kz-SHt">
+                    <rect key="frame" x="136" y="0.0" width="59" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="awL-di-xW6">
+                    <rect key="frame" x="196" y="-1" width="59" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-bus.png" id="7TH-CH-PGm">
+                    <rect key="frame" x="95" y="15" width="15" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btn_bus" destination="Sbg-sA-0G2" id="k3k-Kv-HC8"/>
+                <outlet property="btn_car" destination="6Oa-Kz-SHt" id="Ah4-Mj-3jK"/>
+                <outlet property="btn_walk" destination="awL-di-xW6" id="7q2-aQ-ddE"/>
+                <outlet property="iv_bus" destination="7TH-CH-PGm" id="rJU-cg-oS0"/>
+                <outlet property="iv_car" destination="fGe-Dr-6mM" id="YwG-wm-GCU"/>
+                <outlet property="iv_walk" destination="2jo-Ri-hsq" id="fXD-6Y-eEn"/>
+            </connections>
+            <point key="canvasLocation" x="487" y="180"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon-bus.png" width="46" height="56"/>
+        <image name="icon-car.png" width="63" height="52"/>
+        <image name="icon-run.png" width="41" height="66"/>
+    </resources>
+</document>

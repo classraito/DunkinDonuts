@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FGLoadingViewController">
+            <connections>
+                <outlet property="lb_tips" destination="c0u-AL-4ib" id="bR7-Yz-gph"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="view_contentView" destination="M7w-6E-9dm" id="N67-fk-cwq"/>
+                <outlet property="view_fifth" destination="gU8-C2-UI2" id="Z5X-50-IwR"/>
+                <outlet property="view_first" destination="Kpw-9v-OrL" id="cjF-eO-47q"/>
+                <outlet property="view_fourth" destination="pMd-Tw-rGP" id="TDD-Dd-1e3"/>
+                <outlet property="view_second" destination="JXc-H5-cNN" id="Jed-Nf-6t6"/>
+                <outlet property="view_third" destination="mzg-mV-sEG" id="8Al-2H-dBw"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="M7w-6E-9dm">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c0u-AL-4ib">
+                            <rect key="frame" x="0.0" y="409" width="320" height="53"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="1292" y="276"/>
+        </view>
+        <view contentMode="scaleToFill" id="Kpw-9v-OrL">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="image3.png" id="6VD-df-wJS">
+                    <rect key="frame" x="111" y="148" width="99" height="221"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="sun4.png" id="Nak-G6-bxL">
+                    <rect key="frame" x="123" y="43" width="75" height="75"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cloud-1.png" id="rQG-8X-GbW">
+                    <rect key="frame" x="153" y="43" width="103" height="35"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cloud-2.png" id="41O-yY-UI3">
+                    <rect key="frame" x="87" y="81" width="67" height="27"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="529" y="476"/>
+        </view>
+        <view contentMode="scaleToFill" id="JXc-H5-cNN">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="sun.png" id="MTK-Cl-wIT">
+                    <rect key="frame" x="123" y="43" width="75" height="75"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cloud-1.png" id="3vI-QI-dXz">
+                    <rect key="frame" x="153" y="43" width="103" height="35"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cloud-2.png" id="ffZ-v8-PXf">
+                    <rect key="frame" x="87" y="81" width="67" height="27"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="image2.png" id="9lI-4s-XpG">
+                    <rect key="frame" x="87" y="221" width="165" height="162"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="653" y="418"/>
+        </view>
+        <view contentMode="scaleToFill" id="pMd-Tw-rGP">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="image1.png" id="bsm-aS-rKC">
+                    <rect key="frame" x="87" y="221" width="165" height="162"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="sun2.png" id="kCT-gt-sGy">
+                    <rect key="frame" x="87" y="34" width="136" height="138"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cloud-1.png" id="BRj-F1-Wti">
+                    <rect key="frame" x="217" y="129" width="103" height="35"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cloud-2.png" id="dtb-Eu-RtX">
+                    <rect key="frame" x="33" y="50" width="67" height="27"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="898" y="191"/>
+        </view>
+        <view contentMode="scaleToFill" id="mzg-mV-sEG">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="image4.png" id="i8A-Ej-mXp">
+                    <rect key="frame" x="111" y="148" width="99" height="221"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="sun4.png" id="tx3-QU-SVk">
+                    <rect key="frame" x="123" y="43" width="75" height="75"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cloud-1.png" id="42f-7Q-83G">
+                    <rect key="frame" x="153" y="43" width="103" height="35"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cloud-2.png" id="i2r-ij-hF9">
+                    <rect key="frame" x="87" y="81" width="67" height="27"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="878" y="496"/>
+        </view>
+        <view contentMode="scaleToFill" id="gU8-C2-UI2">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="image3.png" id="pUa-KY-GsV">
+                    <rect key="frame" x="111" y="169" width="99" height="221"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="sun3.png" id="eaB-xX-B0G">
+                    <rect key="frame" x="93" y="19" width="136" height="138"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cloud-1.png" id="9C2-ZK-Pe4">
+                    <rect key="frame" x="216" y="114" width="103" height="35"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cloud-2.png" id="vGe-64-1QG">
+                    <rect key="frame" x="32" y="35" width="67" height="27"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="529" y="221"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cloud-1.png" width="309" height="106"/>
+        <image name="cloud-2.png" width="203" height="81"/>
+        <image name="image1.png" width="433" height="433"/>
+        <image name="image2.png" width="493" height="488"/>
+        <image name="image3.png" width="297" height="664"/>
+        <image name="image4.png" width="296" height="499"/>
+        <image name="sun.png" width="277" height="277"/>
+        <image name="sun2.png" width="409" height="416"/>
+        <image name="sun3.png" width="409" height="416"/>
+        <image name="sun4.png" width="277" height="277"/>
+    </resources>
+</document>

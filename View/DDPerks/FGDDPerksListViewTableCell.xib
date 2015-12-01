@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FGDDPerksListViewTableCell" rowHeight="157" id="KGk-i7-Jjw" customClass="FGDDPerksListViewTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="157"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="156.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="offers1.jpg" id="cNA-Mb-cAH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="149.5"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" id="ssr-UH-HBF" customClass="FGViewWithSepratorLineView">
+                        <rect key="frame" x="40" y="29" width="240" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n3T-9X-zCd">
+                        <rect key="frame" x="40" y="52" width="240" height="58"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-good.png" highlightedImage="icon-good2.png" id="8D1-lU-LMh">
+                        <rect key="frame" x="212" y="114" width="22" height="24"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="257" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fwp-b8-SWm">
+                        <rect key="frame" x="239" y="118" width="36" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-collection.png" highlightedImage="icon-collection2.png" id="J0X-LV-M4n">
+                        <rect key="frame" x="278" y="114" width="26" height="24"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="GHa-9P-T4m">
+                        <rect key="frame" x="191" y="108.5" width="64" height="40.5"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <connections>
+                            <action selector="buttonAction_good:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="l1A-Hp-Bm4"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="nsh-5N-Pvh">
+                        <rect key="frame" x="272" y="105.5" width="40" height="40.5"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <connections>
+                            <action selector="buttonAction_favorite:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Yiy-OT-oYl"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btn_favorite" destination="nsh-5N-Pvh" id="p8g-Cw-jwY"/>
+                <outlet property="btn_good" destination="GHa-9P-T4m" id="50g-9A-CYs"/>
+                <outlet property="iv_bg" destination="cNA-Mb-cAH" id="p2I-AY-rtN"/>
+                <outlet property="iv_favorite" destination="J0X-LV-M4n" id="WE2-CF-pcV"/>
+                <outlet property="iv_good" destination="8D1-lU-LMh" id="8bk-Gx-CtB"/>
+                <outlet property="lb_counter" destination="fwp-b8-SWm" id="evq-Zz-Lf3"/>
+                <outlet property="lb_description" destination="n3T-9X-zCd" id="HNx-qY-1in"/>
+                <outlet property="vsl_title" destination="ssr-UH-HBF" id="sxf-Gf-fxK"/>
+            </connections>
+            <point key="canvasLocation" x="620" y="-94.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon-collection.png" width="78" height="73"/>
+        <image name="icon-collection2.png" width="78" height="73"/>
+        <image name="icon-good.png" width="68" height="73"/>
+        <image name="icon-good2.png" width="68" height="73"/>
+        <image name="offers1.jpg" width="750" height="352"/>
+    </resources>
+</document>

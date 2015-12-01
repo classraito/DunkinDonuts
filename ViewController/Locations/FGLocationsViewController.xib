@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FGLocationsViewController">
+            <connections>
+                <outlet property="css_viewType" destination="DiZ-8i-URc" id="lf4-BC-arE"/>
+                <outlet property="iv_searchBg" destination="Aru-Al-Ngr" id="VtE-Py-RIe"/>
+                <outlet property="iv_topBanner" destination="7d1-7E-rC9" id="RQK-hZ-Qxn"/>
+                <outlet property="tf" destination="3Uy-0j-Ckt" id="hfH-ii-JHf"/>
+                <outlet property="view" destination="5Gg-Bb-4AU" id="azr-ZF-qbK"/>
+                <outlet property="view_contentView" destination="kJK-Zk-sHm" id="oOZ-MX-gnb"/>
+                <outlet property="view_mapList" destination="sdn-LK-ie7" id="dcX-ES-Ytx"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="5Gg-Bb-4AU">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="kJK-Zk-sHm">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="sdn-LK-ie7" customClass="FGLocationsMapListView">
+                    <rect key="frame" x="0.0" y="146" width="320" height="422"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.32842094420000001" green="0.70025208400000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location_bg.jpg" id="7d1-7E-rC9">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="146"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" id="DiZ-8i-URc" customClass="FGCustomSegmentSelectView">
+                    <rect key="frame" x="0.0" y="112" width="320" height="34"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.98823529409999999" green="0.84313725490000002" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search.png" id="Aru-Al-Ngr">
+                    <rect key="frame" x="18" y="63" width="285" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <rect key="contentStretch" x="0.5" y="0.0" width="0.001" height="1"/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Find A Store" textAlignment="natural" minimumFontSize="17" id="3Uy-0j-Ckt">
+                    <rect key="frame" x="32" y="65" width="232" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="571" y="417"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="location_bg.jpg" width="1082" height="473"/>
+        <image name="search.png" width="855" height="105"/>
+    </resources>
+</document>

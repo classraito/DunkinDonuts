@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9059"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="nYF-mU-qdD" customClass="FGRegisterProfileView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="319"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FHd-oz-TTb" customClass="FGCustomTextFieldView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="JFL-JZ-06s"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HGA-DY-BaV" customClass="FGCustomButton">
+                    <rect key="frame" x="0.0" y="47" width="159" height="45"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="uRj-Vu-9UE"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X06-pJ-Qn8" customClass="FGCustomButton">
+                    <rect key="frame" x="161" y="47" width="159" height="45"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="PCe-0j-N6H"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wFv-vD-807" customClass="FGCustomTextFieldView">
+                    <rect key="frame" x="0.0" y="94" width="320" height="45"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="8sm-Lt-pfp"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mrP-Vz-Veh" customClass="FGCustomTextFieldView">
+                    <rect key="frame" x="0.0" y="141" width="320" height="45"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="lnj-In-uDY"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ee-Db-oTm" customClass="FGCustomButton">
+                    <rect key="frame" x="87" y="279" width="147" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="HAp-CF-2HC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="FHd-oz-TTb" firstAttribute="top" secondItem="nYF-mU-qdD" secondAttribute="top" id="1ob-AO-IS3"/>
+                <constraint firstItem="HGA-DY-BaV" firstAttribute="leading" secondItem="nYF-mU-qdD" secondAttribute="leading" id="6Tw-pW-SQq"/>
+                <constraint firstItem="X06-pJ-Qn8" firstAttribute="width" secondItem="HGA-DY-BaV" secondAttribute="width" id="Ao7-oo-hxs"/>
+                <constraint firstItem="X06-pJ-Qn8" firstAttribute="top" secondItem="FHd-oz-TTb" secondAttribute="bottom" constant="2" id="BXP-21-4ZW"/>
+                <constraint firstAttribute="trailing" secondItem="FHd-oz-TTb" secondAttribute="trailing" id="DAh-JA-0kx"/>
+                <constraint firstItem="7Ee-Db-oTm" firstAttribute="leading" secondItem="nYF-mU-qdD" secondAttribute="leading" constant="87" id="FtT-OP-QNf"/>
+                <constraint firstItem="HGA-DY-BaV" firstAttribute="top" secondItem="FHd-oz-TTb" secondAttribute="bottom" constant="2" id="NbT-eT-bF6"/>
+                <constraint firstItem="mrP-Vz-Veh" firstAttribute="top" secondItem="wFv-vD-807" secondAttribute="bottom" constant="2" id="R6b-mA-cKv"/>
+                <constraint firstItem="wFv-vD-807" firstAttribute="leading" secondItem="nYF-mU-qdD" secondAttribute="leading" id="Spt-uf-Ypl"/>
+                <constraint firstItem="wFv-vD-807" firstAttribute="top" secondItem="HGA-DY-BaV" secondAttribute="bottom" constant="2" id="WM1-om-VSB"/>
+                <constraint firstAttribute="trailing" secondItem="X06-pJ-Qn8" secondAttribute="trailing" id="ZdH-Nw-Bas"/>
+                <constraint firstAttribute="trailing" secondItem="mrP-Vz-Veh" secondAttribute="trailing" id="cUl-FT-m9p"/>
+                <constraint firstAttribute="bottom" secondItem="7Ee-Db-oTm" secondAttribute="bottom" id="dHc-Tf-miM"/>
+                <constraint firstItem="X06-pJ-Qn8" firstAttribute="leading" secondItem="HGA-DY-BaV" secondAttribute="trailing" constant="2" id="gYq-Oc-tgk"/>
+                <constraint firstAttribute="trailing" secondItem="7Ee-Db-oTm" secondAttribute="trailing" constant="86" id="lzg-eQ-bHh"/>
+                <constraint firstItem="FHd-oz-TTb" firstAttribute="leading" secondItem="nYF-mU-qdD" secondAttribute="leading" id="q56-1U-hE4"/>
+                <constraint firstItem="mrP-Vz-Veh" firstAttribute="leading" secondItem="nYF-mU-qdD" secondAttribute="leading" id="vOh-SG-3in"/>
+                <constraint firstItem="wFv-vD-807" firstAttribute="top" secondItem="X06-pJ-Qn8" secondAttribute="bottom" constant="2" id="y9w-iB-X1j"/>
+                <constraint firstAttribute="trailing" secondItem="wFv-vD-807" secondAttribute="trailing" id="yDb-g6-8kT"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cb_birthday" destination="X06-pJ-Qn8" id="QrR-Dh-xIc"/>
+                <outlet property="cb_gender" destination="HGA-DY-BaV" id="fdv-yL-JpL"/>
+                <outlet property="cb_submit" destination="7Ee-Db-oTm" id="d83-wb-Ygt"/>
+                <outlet property="ctf_email" destination="mrP-Vz-Veh" id="PDV-xx-QWh"/>
+                <outlet property="ctf_mobile" destination="wFv-vD-807" id="s4d-8M-BSx"/>
+                <outlet property="ctf_name" destination="FHd-oz-TTb" id="Jcc-z9-eBo"/>
+            </connections>
+            <point key="canvasLocation" x="226" y="-155.5"/>
+        </view>
+    </objects>
+</document>
